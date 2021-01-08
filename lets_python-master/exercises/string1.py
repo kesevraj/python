@@ -39,7 +39,7 @@ def both_ends(s):
   if len(s)<2:
    return  ("")
   else :
-   word=s[0]+s[1]+s[-2]+s[-1]
+   word=s[:2]+s[-2:]
   # +++your code here+++
    return word
 
